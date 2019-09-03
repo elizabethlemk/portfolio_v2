@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Logo from "./components/Logo";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import Home from "./components/Home";
 import About from "./components/About";
@@ -20,6 +23,8 @@ const App = props => {
     }
   };
   console.log(activeItem);
+
+  AOS.init();
   return (
     <React.Fragment>
       <Logo activeItem={activeItem} handleClick={handleClick} />
@@ -31,6 +36,7 @@ const App = props => {
         <Route exact path="/resume" render={() => <Resume />} />
         <Route exact path="/contact" render={() => <Contact />} />
       </Switch>
+      <Footer />
     </React.Fragment>
   );
 };

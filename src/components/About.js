@@ -1,7 +1,11 @@
 import React from "react";
 
 const About = () => {
-  return <div className="home_wrapper">This is the about page</div>;
+  return (
+    <div className="wrapper" data-aos="fade-up">
+      This is the about page
+    </div>
+  );
 };
 
 export default About;
