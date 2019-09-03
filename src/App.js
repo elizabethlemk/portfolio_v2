@@ -27,15 +27,17 @@ const App = props => {
   AOS.init();
   return (
     <React.Fragment>
-      <Logo activeItem={activeItem} handleClick={handleClick} />
-      <Navbar activeItem={activeItem} handleClick={handleClick} />
-      <Switch>
-        <Route exact path="/" render={() => <Home />} />
-        <Route exact path="/about" render={() => <About />} />
-        <Route exact path="/works" render={() => <Works />} />
-        <Route exact path="/resume" render={() => <Resume />} />
-        <Route exact path="/contact" render={() => <Contact />} />
-      </Switch>
+      <div className="main-content">
+        <Logo activeItem={activeItem} handleClick={handleClick} />
+        <Navbar activeItem={activeItem} handleClick={handleClick} />
+        <Switch>
+          <Route exact path="/" render={() => <Home />} />
+          <Route exact path="/about" render={() => <About />} />
+          <Route exact path="/works" render={() => <Works />} />
+          <Route exact path="/resume" render={() => <Resume />} />
+          <Route exact path="/contact" render={() => <Contact />} />
+        </Switch>
+      </div>
       <Footer />
     </React.Fragment>
   );

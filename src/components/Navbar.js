@@ -9,28 +9,28 @@ const Navbar = ({ activeItem, handleClick }) => {
           className={activeItem === "about" ? "active" : ""}
           onClick={() => handleClick("about")}
         >
-          About
+          about
         </li>
         <li
           name="works"
           className={activeItem === "works" ? "active" : ""}
           onClick={() => handleClick("works")}
         >
-          Works
+          works
         </li>
         <li
           name="resume"
           className={activeItem === "resume" ? "active" : ""}
           onClick={() => handleClick("resume")}
         >
-          Resume
+          resume
         </li>
         <li
           name="contact"
           className={activeItem === "contact" ? "active" : ""}
           onClick={() => handleClick("contact")}
         >
-          Contact
+          contact
         </li>
       </ul>
     </div>
