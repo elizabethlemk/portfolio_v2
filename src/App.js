@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Route, Switch, withRouter } from "react-router-dom";
+import Logo from "./components/Logo";
+import Navbar from "./components/Navbar";
 
-function App() {
+import Home from "./components/Home";
+import About from "./components/About";
+import Works from "./components/Works";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+
+const App = () => {
+  const [activeItem, setActive] = useState("home");
+
+  console.log(activeItem);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Logo />
+      <Navbar activeItem={activeItem} setActive={setActive} />
+      <Switch>
+        <Route exact path="/home" render={() => <Home />} />
+        <Route exact path="/about" render={() => <About />} />
+        <Route exact path="/works" render={() => <Works />} />
+        <Route exact path="/resume" render={() => <Resume />} />
+        <Route exact path="/contact" render={() => <Contact />} />
+      </Switch>
+    </React.Fragment>
   );
-}
+};
 
-export default App;
+export default withRouter(App);
