@@ -5,6 +5,8 @@
 
 body {
   width: 100vw;
+  height: 100vh;
+  background: yellow;
   font-family: "Lato", sans-serif;
   font-weight: 200;
 }
@@ -16,6 +18,9 @@ body {
 .logo_wrapper {
   text-align: center;
   padding: 2em 0;
+}
+.logo_wrapper h1 {
+  cursor: pointer;
 }
 
 .nav_wrapper {

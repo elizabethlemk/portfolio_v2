@@ -1,22 +1,9 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 
-const Navbar = ({ activeItem, setActive, props }) => {
-  const handleClick = name => {
-    setActive(name);
-    props.history.push(`/${name}`);
-  };
-
+const Navbar = ({ activeItem, handleClick }) => {
   return (
     <div className="nav_wrapper">
       <ul>
-        <li
-          name="home"
-          className={activeItem === "home" ? "active" : ""}
-          onClick={() => handleClick("home")}
-        >
-          Home
-        </li>
         <li
           name="about"
           className={activeItem === "about" ? "active" : ""}
@@ -50,4 +37,4 @@ const Navbar = ({ activeItem, setActive, props }) => {
   );
 };
 
-export default withRouter(Navbar);
+export default Navbar;
