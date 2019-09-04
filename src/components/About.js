@@ -25,9 +25,8 @@ const About = () => {
             <h2>Skills</h2>
             <p>
               React, Redux, JavaScript, Node.js, Ruby on Rails, PHP, CMS
-              (Wordpress, Shopify)
-              <br />
-              CSS, HTML, Illustrator, Photoshop, PostgreSQL, AWS S3
+              (Wordpress, Shopify), CSS, HTML, Illustrator, Photoshop,
+              PostgreSQL, AWS S3
             </p>
           </div>
         </div>
