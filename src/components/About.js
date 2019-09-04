@@ -34,7 +34,7 @@ const About = () => {
           <h2>Education</h2>
           <ul>
             <li>
-              <ul>
+              <ul data-aos="fade-down">
                 <h3>Flatiron School </h3>
                 January - April 2019
                 <li>Brooklyn, NY</li>
@@ -43,7 +43,7 @@ const About = () => {
             </li>
             <br />
             <li>
-              <ul>
+              <ul data-aos="fade-down">
                 <h3>California State University Long Beach</h3>
                 2015-2018
                 <li>Long Beach, CA</li>
@@ -54,7 +54,7 @@ const About = () => {
         </div>
         <div>
           <img
-            src="https://i.imgur.com/o7pDIny.png"
+            src="https://i.imgur.com/qdRFa1z.png"
             alt="profile2"
             data-aos="fade-down"
           />

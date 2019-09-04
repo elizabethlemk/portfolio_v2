@@ -4,7 +4,7 @@ import ReactContactForm from "react-mail-form";
 const Contact = () => {
   return (
     <div className="contact wrapper" data-aos="fade-up">
-      <h1>To: elizabethlemk@gmail.com</h1>
+      <h2>To: elizabethlemk@gmail.com</h2>
       <br />
       <ReactContactForm
         to="elizabethlemk@gmail.com"
