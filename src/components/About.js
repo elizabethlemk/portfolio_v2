@@ -24,8 +24,8 @@ const About = () => {
           <div data-aos="fade-down">
             <h2>Skills</h2>
             <p>
-              React, Redux, JavaScript, Ruby on Rails, PHP, CMS (Wordpress,
-              Shopify)
+              React, Redux, JavaScript, Node.js, Ruby on Rails, PHP, CMS
+              (Wordpress, Shopify)
               <br />
               CSS, HTML, Illustrator, Photoshop, PostgreSQL, AWS S3
             </p>
