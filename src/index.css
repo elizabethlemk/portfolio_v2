@@ -16,6 +16,7 @@ body {
   color: white;
   background: url("./assets/background.png");
   background-position: center top;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 strong {
@@ -120,7 +121,7 @@ h1:not(.logo) {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
-  background: none !important;
+  width: 40% !important;
 }
 .img_wrapper {
   display: flex;
@@ -242,10 +243,18 @@ h1:not(.logo) {
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
-
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1640px) {
   .homepage {
-    margin: 4.5em auto;
+    margin: 8em auto;
+  }
+  .logo {
+    font-size: 9rem !important;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1639px) {
+  .homepage {
+    margin: 7em auto;
   }
 }
 @media screen and (max-width: 1260px) {

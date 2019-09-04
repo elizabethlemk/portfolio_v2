@@ -1,25 +1,20 @@
 {
   "short_name": "Elizabeth Le",
-  "name": "Portfolio of Elizabeth Le: Web Developer",
+  "name": "Elizabeth Le's Web Development Portfolio",
   "icons": [
     {
-      "src": "cat.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
+      "src": "small.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "large.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/home",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#fff",
   "background_color": "#ffffff"
 }
