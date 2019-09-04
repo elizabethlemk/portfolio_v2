@@ -245,7 +245,8 @@ h1:not(.logo) {
 }
 @media screen and (min-width: 1640px) {
   .homepage {
-    margin: 8em auto;
+    margin: 4em auto;
+    font-size: 2em;
   }
   .logo {
     font-size: 9rem !important;
@@ -288,17 +289,23 @@ h1:not(.logo) {
 
 @media screen and (max-width: 800px) {
   body {
+    width: 100vw;
     background: url("./assets/responsive.png");
-    background-position: center;
-    background-size: cover;
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
   }
   .logo {
     font-size: 3rem !important;
   }
   .nav_wrapper li {
-    font-size: medium;
+    font-size: small !important;
   }
   .homepage {
     background-color: white !important;
+  }
+  .wrapper {
+    min-width: 300px;
   }
 }
