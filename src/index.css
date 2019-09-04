@@ -21,11 +21,7 @@ body {
 strong {
   text-decoration: underline;
 }
-.about,
-.contact,
-.works {
-  background: white;
-}
+
 .about_text {
   padding: 0 2em;
   text-align: left;
@@ -47,7 +43,6 @@ h1:not(.logo) {
   list-style: none;
 }
 .contact-form {
-  padding-top: 1rem;
   padding-bottom: 2rem;
   margin: auto;
 }
@@ -55,7 +50,9 @@ h1:not(.logo) {
 .contact-form input[type="email"],
 .contact-form textarea,
 .contact-form a {
-  width: 60%;
+  width: 70%;
+  padding: 5px;
+  border: 1px solid black;
   display: block;
   margin: 1rem auto;
 }
@@ -63,11 +60,12 @@ h1:not(.logo) {
 .contact-form a {
   background-color: black;
   color: white;
-  font-family: orator-std, monospace !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-  letter-spacing: 0.3rem !important;
+  font-family: orator-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3rem;
   font-size: 15px;
+  text-decoration: none;
 }
 .contact-form textarea {
   height: 30vh;
@@ -104,6 +102,7 @@ h1:not(.logo) {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
+  background: none !important;
 }
 .img_wrapper {
   display: flex;
@@ -117,7 +116,7 @@ h1:not(.logo) {
   padding-top: 2em;
 }
 
-.logo_wrapper h1 {
+.logo {
   cursor: pointer;
   font-family: marydale, sans-serif !important;
   font-weight: 700;
@@ -192,6 +191,7 @@ h1:not(.logo) {
   line-height: 2;
   color: black;
   position: relative;
+  background: white;
 }
 
 @-webkit-keyframes neon1 {
