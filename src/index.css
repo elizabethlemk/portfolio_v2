@@ -19,8 +19,25 @@ body {
   background-size: cover;
 }
 .about {
-  display: flex;
   background: white;
+}
+.about_text {
+  padding: 0 2em;
+  text-align: left;
+}
+
+.about_text h2 {
+  font-family: orator-std, monospace;
+  border-bottom: 1px solid black;
+}
+
+.about_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_wrapper ul {
+  list-style: none;
 }
 .footer_wrapper {
   position: absolute;
@@ -53,9 +70,14 @@ body {
   font-family: orator-std, monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.5em;
 }
-
+.img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+}
 .logo_wrapper {
   z-index: 100;
   text-align: center;
@@ -117,7 +139,7 @@ body {
   margin: 2em auto;
   min-width: 450px;
   width: 60%;
-  padding: 2em;
+  padding: 1em;
   line-height: 2;
   color: black;
   position: relative;
