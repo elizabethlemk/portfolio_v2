@@ -37,7 +37,8 @@ h1:not(.logo) {
 
 .about_wrapper {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 .about_wrapper ul {
@@ -236,5 +237,56 @@ h1:not(.logo) {
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .homepage {
+    margin: 4.5em auto;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .about_wrapper,
+  .img_wrapper,
+  .project_wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1075px) and (max-width: 1320px) {
+  .homepage {
+    margin: 0.25em auto !important;
+  }
+  .logo {
+    font-size: 5rem !important;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1074px) {
+  .homepage {
+    font-size: 1em !important;
+    margin: 1.5em auto !important;
+  }
+  .logo {
+    font-size: 3rem !important;
+  }
+  .nav_wrapper li {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: url("./assets/responsive.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .logo {
+    font-size: 3rem !important;
+  }
+  .nav_wrapper li {
+    font-size: medium;
+  }
+  .homepage {
+    background-color: white !important;
   }
 }
