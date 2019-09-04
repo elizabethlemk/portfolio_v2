@@ -10,23 +10,26 @@ const About = () => {
           data-aos="fade-down"
         />
         <div className="about_text" data-aos="fade-down">
-          <h2>Background</h2>
-          <p>
-            Born and raised in Orange County, California, I always had a passion
-            for the arts since childhood. In college, I channeled my creative
-            spirit into a more practical application: fashion design.
-            <br /> As much as I adored fashion, I found a passion and love for
-            programming. The process in software engineering is extremely
-            similar to garment creation in fashion!
-          </p>
-
-          <h2>Skills</h2>
-          <p>
-            React, Redux, JavaScript, Ruby on Rails, PHP, CMS (Wordpress,
-            Shopify)
-            <br />
-            CSS, HTML, Illustrator, Photoshop, PostgreSQL, AWS S3
-          </p>
+          <div data-aos="fade-down">
+            <h2>Background</h2>
+            <p>
+              Born and raised in Orange County, California, I always had a
+              passion for the arts since childhood. In college, I channeled my
+              creative spirit into a more practical application: fashion design.
+              <br /> As much as I adored fashion, I found a passion and love for
+              programming. The process in software engineering is extremely
+              similar to garment creation in fashion!
+            </p>
+          </div>
+          <div data-aos="fade-down">
+            <h2>Skills</h2>
+            <p>
+              React, Redux, JavaScript, Ruby on Rails, PHP, CMS (Wordpress,
+              Shopify)
+              <br />
+              CSS, HTML, Illustrator, Photoshop, PostgreSQL, AWS S3
+            </p>
+          </div>
         </div>
       </div>
       <div className="about_wrapper">
