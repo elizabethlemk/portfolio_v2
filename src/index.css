@@ -18,6 +18,10 @@ body {
   background-position: center;
   background-size: cover;
 }
+.about {
+  display: flex;
+  background: white;
+}
 .footer_wrapper {
   position: absolute;
   width: 100%;
@@ -45,11 +49,17 @@ body {
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
+.homepage {
+  font-family: orator-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
 
 .logo_wrapper {
   z-index: 100;
   text-align: center;
-  padding: 2em 0;
+  padding-top: 2em;
 }
 
 .logo_wrapper h1 {
@@ -106,7 +116,7 @@ body {
   text-align: center;
   margin: 2em auto;
   min-width: 450px;
-  width: 40%;
+  width: 60%;
   padding: 2em;
   line-height: 2;
   color: black;

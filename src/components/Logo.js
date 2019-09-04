@@ -8,7 +8,7 @@ const Logo = ({ activeItem, handleClick }) => {
         className={activeItem === "home" ? "active" : ""}
         onClick={() => handleClick("home")}
       >
-        Logo Here
+        Elizabeth Le
       </h1>
     </div>
   );
