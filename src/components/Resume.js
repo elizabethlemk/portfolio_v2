@@ -1,9 +1,10 @@
 import React from "react";
+import resume from "../assets/resume.pdf";
 
 const Resume = () => {
   return (
     <div className="wrapper" data-aos="fade-up">
-      This is the resume page
+      <iframe src={resume} title="resume" className="resume" />
     </div>
   );
 };
