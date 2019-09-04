@@ -17,7 +17,6 @@ body {
   background: url("./assets/background.png");
   background-position: center top;
   background-size: cover;
-  transition: all 0.3s;
 }
 strong {
   text-decoration: underline;
@@ -68,6 +67,7 @@ h1:not(.logo) {
   letter-spacing: 0.3rem;
   font-size: 15px;
   text-decoration: none;
+  transition: all 0.3s;
 }
 .contact-form a:hover {
   background: #ff1177;
@@ -82,6 +82,7 @@ h1:not(.logo) {
 .description span a:visited {
   text-decoration: none;
   color: black;
+  transition: all 0.3s;
 }
 .description span a:hover {
   background-color: #ff1177;
@@ -106,6 +107,7 @@ h1:not(.logo) {
   color: white;
   font-size: 2em;
   margin: 0 10px;
+  transition: all 0.3s;
 }
 
 .footer_wrapper li a:hover {
@@ -171,6 +173,7 @@ h1:not(.logo) {
   font-size: larger;
   letter-spacing: 1px;
   margin: 0 2em;
+  transition: all 0.3s;
 }
 
 .nav_wrapper li.active,
