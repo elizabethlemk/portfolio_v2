@@ -41,6 +41,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+      <span>&#169; 2019 Elizabeth Le</span>
     </div>
   );
 };

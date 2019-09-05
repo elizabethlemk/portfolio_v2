@@ -100,6 +100,11 @@ h1:not(.logo) {
   bottom: 0;
   padding: 1em 0;
 }
+.footer_wrapper span {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
 .footer_wrapper ul {
   display: flex;
   list-style: none;
