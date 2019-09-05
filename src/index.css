@@ -125,6 +125,7 @@ h1:not(.logo) {
   font-style: normal;
   font-size: 1.5em;
   width: 40% !important;
+  margin: 3.5em auto !important;
 }
 .img_wrapper {
   display: flex;
@@ -280,7 +281,7 @@ h1:not(.logo) {
 
 @media screen and (min-width: 1075px) and (max-width: 1320px) {
   .homepage {
-    margin: 0.25em auto !important;
+    margin: 2em auto !important;
   }
   .logo {
     font-size: 5rem !important;
