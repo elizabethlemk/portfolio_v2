@@ -330,6 +330,10 @@ h1:not(.logo) {
   .homepage {
     background-color: white !important;
   }
+  .resume {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
   .wrapper {
     min-width: 300px;
   }
