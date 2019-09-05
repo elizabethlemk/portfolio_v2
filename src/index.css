@@ -39,9 +39,16 @@ h1:not(.logo) {
 }
 
 .about_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .about_wrapper ul {
@@ -71,6 +78,8 @@ h1:not(.logo) {
   letter-spacing: 0.3rem;
   font-size: 15px;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .contact-form a:hover {
@@ -86,6 +95,8 @@ h1:not(.logo) {
 .description span a:visited {
   text-decoration: none;
   color: black;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .description span a:hover {
@@ -106,8 +117,12 @@ h1:not(.logo) {
   right: 30px;
 }
 .footer_wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -116,12 +131,13 @@ h1:not(.logo) {
   color: white;
   font-size: 2em;
   margin: 0 10px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .footer_wrapper li a:hover {
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 .homepage {
@@ -133,8 +149,14 @@ h1:not(.logo) {
   margin: 3.5em auto !important;
 }
 .img_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 3em;
 }
@@ -152,10 +174,9 @@ h1:not(.logo) {
   color: #fff;
   font-size: 7rem;
   -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 .main-content {
@@ -170,7 +191,11 @@ h1:not(.logo) {
 }
 
 .nav_wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   list-style: none;
 }
@@ -183,6 +208,8 @@ h1:not(.logo) {
   font-size: larger;
   letter-spacing: 1px;
   margin: 0 2em;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -190,7 +217,6 @@ h1:not(.logo) {
 .nav_wrapper li:hover {
   font-weight: 500;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
@@ -205,8 +231,14 @@ h1:not(.logo) {
   min-width: 100%;
 }
 .project_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 3em;
 }
@@ -230,16 +262,6 @@ h1:not(.logo) {
 }
 
 @-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-  }
-}
-@-moz-keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
       0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
@@ -278,12 +300,19 @@ h1:not(.logo) {
   .about_wrapper,
   .img_wrapper,
   .project_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .project_img {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
   }
   .project_wrapper .description {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
   }
   .contact h2 {
