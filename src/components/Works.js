@@ -4,7 +4,7 @@ const Works = () => {
   return (
     <div className="works wrapper" data-aos="fade-up">
       <div className="project_wrapper" data-aos="fade-down">
-        <div>
+        <div className="project_img">
           <a
             href="http://www.dooznyc.com"
             target="_blank"
@@ -47,7 +47,7 @@ const Works = () => {
             <strong>Built with:</strong> JQuery, HTML/CSS
           </p>
         </div>
-        <div>
+        <div className="project_img">
           <a
             href="http://www.walkpop.com"
             target="_blank"
@@ -121,7 +121,7 @@ const Works = () => {
             Rails(Back-end)
           </p>
         </div>
-        <div>
+        <div className="project_img">
           <a
             href="http://flatiron-ware-game.herokuapp.com/"
             target="_blank"
@@ -135,7 +135,7 @@ const Works = () => {
         </div>
       </div>
       <div className="project_wrapper" data-aos="fade-down">
-        <div>
+        <div className="project_img">
           <a
             href="http://the-jelly-club.herokuapp.com/"
             target="_blank"

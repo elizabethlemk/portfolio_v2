@@ -23,6 +23,9 @@ strong {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+}
 .about_text {
   padding: 0 2em;
   text-align: left;
@@ -263,6 +266,15 @@ h1:not(.logo) {
   .img_wrapper,
   .project_wrapper {
     flex-direction: column;
+  }
+  .project_img {
+    order: 1;
+  }
+  .project_wrapper .description {
+    order: 2;
+  }
+  .contact h2 {
+    font-size: medium;
   }
 }
 
