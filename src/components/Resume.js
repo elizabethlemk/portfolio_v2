@@ -3,8 +3,8 @@ import resume from "../assets/resume.pdf";
 
 const Resume = () => {
   return (
-    <div className="wrapper" data-aos="fade-up">
-      <iframe src={resume} title="resume" className="resume" />
+    <div className="resume wrapper" data-aos="fade-up">
+      <iframe src={resume} scrolling="yes" title="resume" />
     </div>
   );
 };
