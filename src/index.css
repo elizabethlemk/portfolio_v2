@@ -221,14 +221,13 @@ h1:not(.logo) {
 }
 
 .resume {
-  height: 50vh;
+  height: 70vh;
   position: relative;
   width: 100vw;
 }
-.resume iframe {
+.resume object {
   height: 100%;
-  width: 1px;
-  min-width: 100%;
+  width: 100%;
 }
 .project_wrapper {
   display: -webkit-box;
