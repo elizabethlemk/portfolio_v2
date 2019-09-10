@@ -38,7 +38,9 @@ const About = () => {
           data-aos="fade-down"
           data-aos-duration="1500"
         >
-          <h2>Education</h2>
+          <h2 data-aos="fade-down" data-aos-duration="1500">
+            Education
+          </h2>
           <ul>
             <li>
               <ul data-aos="fade-left" data-aos-duration="1500">
