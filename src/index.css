@@ -221,7 +221,7 @@ h1:not(.logo) {
 }
 
 .resume {
-  height: 70vh;
+  height: 100vh;
   position: relative;
   width: 100vw;
 }
@@ -229,6 +229,21 @@ h1:not(.logo) {
   height: 100%;
   width: 100%;
 }
+.resume-btn {
+  display: none;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  line-height: 50px;
+  transition: all 0.3s;
+}
+.resume-btn:hover {
+  background-color: #ff1177;
+}
+
 .project_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,9 +374,15 @@ h1:not(.logo) {
     background-color: white !important;
   }
   .resume {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    height: fit-content !important;
   }
+  .resume object {
+    height: auto !important;
+  }
+  .resume-btn {
+    display: block;
+  }
+
   .wrapper {
     min-width: 300px;
   }
