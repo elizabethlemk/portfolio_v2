@@ -3,7 +3,11 @@ import React from "react";
 const Works = () => {
   return (
     <div className="works wrapper" data-aos="fade-up">
-      <div className="project_wrapper" data-aos="fade-down">
+      <div
+        className="project_wrapper"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
         <div className="project_img">
           <a
             href="http://www.dooznyc.com"
@@ -30,7 +34,11 @@ const Works = () => {
           </p>
         </div>
       </div>
-      <div className="project_wrapper" data-aos="fade-down">
+      <div
+        className="project_wrapper"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <div className="description">
           <h1>Walkpop</h1>
           <span>
@@ -57,7 +65,11 @@ const Works = () => {
           </a>
         </div>
       </div>
-      <div className="project_wrapper" data-aos="fade-down">
+      <div
+        className="project_wrapper"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
         <div>
           <a
             href="https://www.youtube.com/watch?v=dg2nIqLr84M"
@@ -94,7 +106,11 @@ const Works = () => {
           </p>
         </div>
       </div>
-      <div className="project_wrapper" data-aos="fade-down">
+      <div
+        className="project_wrapper"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <div className="description">
           <h1>Flatiron Ware</h1>
           <span>
@@ -134,7 +150,11 @@ const Works = () => {
           </a>
         </div>
       </div>
-      <div className="project_wrapper" data-aos="fade-down">
+      <div
+        className="project_wrapper"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
         <div className="project_img">
           <a
             href="http://the-jelly-club.herokuapp.com/"

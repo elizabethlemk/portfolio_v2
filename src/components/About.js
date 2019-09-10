@@ -8,9 +8,10 @@ const About = () => {
           src="https://i.imgur.com/4Y3dLBk.png"
           alt="profile"
           data-aos="fade-down"
+          data-aos-duration="1500"
         />
-        <div className="about_text" data-aos="fade-down">
-          <div data-aos="fade-down">
+        <div className="about_text">
+          <div data-aos="fade-left" data-aos-duration="1500">
             <h2>Background</h2>
             <p>
               Born and raised in Orange County, California, I always had a
@@ -21,7 +22,7 @@ const About = () => {
               similar to garment creation in fashion!
             </p>
           </div>
-          <div data-aos="fade-down">
+          <div data-aos="fade-right" data-aos-duration="1500">
             <h2>Skills</h2>
             <p>
               React, Redux, JavaScript, Node.js, Ruby on Rails, PHP, CMS
@@ -32,11 +33,15 @@ const About = () => {
         </div>
       </div>
       <div className="about_wrapper">
-        <div className="about_text" data-aos="fade-down">
+        <div
+          className="about_text"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <h2>Education</h2>
           <ul>
             <li>
-              <ul data-aos="fade-down">
+              <ul data-aos="fade-left" data-aos-duration="1500">
                 <h3>Flatiron School </h3>
                 January - April 2019
                 <li>Brooklyn, NY</li>
@@ -45,7 +50,7 @@ const About = () => {
             </li>
             <br />
             <li>
-              <ul data-aos="fade-down">
+              <ul data-aos="fade-right" data-aos-duration="1500">
                 <h3>California State University Long Beach</h3>
                 2015-2018
                 <li>Long Beach, CA</li>
@@ -59,6 +64,7 @@ const About = () => {
             src="https://i.imgur.com/qdRFa1z.png"
             alt="profile2"
             data-aos="fade-down"
+            data-aos-duration="1500"
           />
         </div>
       </div>
