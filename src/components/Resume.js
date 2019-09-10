@@ -11,8 +11,8 @@ const Resume = () => {
         data-aos="fade-down"
         data-aos-duration="1500"
       >
-        This browser does not support PDFs. Please download the PDF to view it:{" "}
-        <a href={resume}>Download PDF.</a>{" "}
+        This browser does not support PDFs.{" "}
+        <a href={resume}> Please download the PDF to view it: </a>{" "}
       </object>
       <a
         data-aos="fade-up"
