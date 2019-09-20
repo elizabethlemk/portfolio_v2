@@ -22,7 +22,6 @@ const App = props => {
       props.history.push(`/${name}`);
     }
   };
-  console.log(activeItem);
 
   AOS.init();
   return (
