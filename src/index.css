@@ -53,6 +53,14 @@ h1:not(.logo) {
 .about_wrapper ul {
   list-style: none;
 }
+
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
 .contact-form {
   padding-bottom: 2rem;
   margin: auto;

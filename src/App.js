@@ -12,6 +12,24 @@ import Works from "./components/Works";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 
+function konami(callback) {
+  let kkeys = [];
+  // up,up,down,down,left,right,left,right,B,A
+  const konami = "38,38,40,40,37,39,37,39,66,65";
+  return event => {
+    kkeys.push(event.keyCode);
+    if (kkeys.toString().indexOf(konami) >= 0) {
+      callback();
+      kkeys = [];
+    }
+  };
+}
+const handler = konami(() => {
+  console.log("konami 1");
+});
+
+window.addEventListener("keydown", handler);
+
 const App = props => {
   const [activeItem, setActive] = useState("home");
   const handleClick = name => {
@@ -26,6 +44,7 @@ const App = props => {
   AOS.init();
   return (
     <React.Fragment>
+      // <canvas id="confetti"></canvas>
       <div className="main-content">
         <Logo activeItem={activeItem} handleClick={handleClick} />
         <Navbar activeItem={activeItem} handleClick={handleClick} />
