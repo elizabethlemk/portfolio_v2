@@ -14,20 +14,18 @@ const About = () => {
           <div data-aos="fade-left" data-aos-duration="1500">
             <h2>Background</h2>
             <p>
-              Born and raised in Orange County, California, I always had a
-              passion for the arts since childhood. In college, I channeled my
-              creative spirit into a more practical application: fashion design.
-              <br /> As much as I adored fashion, I found a passion and love for
-              programming. The process in software engineering is extremely
-              similar to garment creation in fashion!
+              Born and raised in Orange County, CA. In my final year of getting
+              my B.A. in Fashion Design, I was already looking for a career
+              change. After graduating, I attended Flatiron School in Brooklyn,
+              NY and the rest is history! I've worked on websites for Adore Me,
+              Dooz NYC, Andbox, Splits59, and more.
             </p>
           </div>
           <div data-aos="fade-right" data-aos-duration="1500">
             <h2>Skills</h2>
             <p>
-              React, Redux, JavaScript, Node.js, Ruby on Rails, PHP, CMS
-              (Wordpress, Shopify), CSS, HTML, Illustrator, Photoshop,
-              PostgreSQL, AWS S3
+              React, Redux, JavaScript, Node.js, Ruby on Rails, Shopify/Liquid,
+              CSS, HTML, Illustrator, Photoshop, PostgreSQL, AWS S3
             </p>
           </div>
         </div>
