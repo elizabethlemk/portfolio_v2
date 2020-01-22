@@ -83,7 +83,7 @@ const Works = () => {
             </a>
           </div>
           <div className="description">
-            <h1>{work.name}</h1>
+            <h2>{work.name}</h2>
             <span>
               <a href={work.link} target="_blank" rel="noopener noreferrer">
                 Website

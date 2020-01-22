@@ -32,9 +32,7 @@ img {
   text-align: left;
 }
 
-.about_text h2,
-.contact h2,
-h1:not(.logo) {
+h2 {
   font-family: orator-std, monospace;
   border-bottom: 1px solid black;
 }
@@ -277,9 +275,13 @@ h1:not(.logo) {
   height: auto;
 }
 .project_wrapper:nth-child(odd) .project_img {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
   order: 2;
 }
 .project_wrapper:nth-child(odd) .description {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
   order: 1;
 }
 .wrapper {
@@ -385,6 +387,10 @@ h1:not(.logo) {
     background-repeat: no-repeat;
     background-color: black;
   }
+
+  p {
+    font-size: 0.8rem;
+  }
   .logo {
     font-size: 3rem !important;
   }
@@ -404,7 +410,6 @@ h1:not(.logo) {
   .resume-btn {
     display: block;
   }
-
   .wrapper {
     min-width: 300px;
   }
