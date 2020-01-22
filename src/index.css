@@ -28,13 +28,16 @@ img {
   max-width: 100%;
 }
 .about_text {
-  padding: 0 2em;
+  padding: 0 1.5em;
   text-align: left;
 }
 
 h2 {
   font-family: orator-std, monospace;
   border-bottom: 1px solid black;
+}
+h3 {
+  font-family: orator-std, monospace;
 }
 
 .about_wrapper {
@@ -52,13 +55,6 @@ h2 {
   list-style: none;
 }
 
-#confetti {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-}
 .contact-form {
   padding-bottom: 2rem;
   margin: auto;
