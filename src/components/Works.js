@@ -10,6 +10,73 @@ const Works = () => {
       >
         <div className="project_img">
           <a
+            href="http://www.joyja.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="https://i.imgur.com/yvKNPuq.png" alt="joyja" />
+          </a>
+        </div>
+        <div className="description">
+          <h1>Joyja</h1>
+          <span>
+            <a
+              href="http://www.joyja.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Website
+            </a>
+          </span>
+          <p>
+            Custom Shopify theme created closely with a UI/UX designer,
+            integrated with Yotpo and Klaviyo.
+            <br />
+            <strong>Built with:</strong> JQuery, HTML/CSS
+          </p>
+        </div>
+      </div>
+      <div
+        className="project_wrapper"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
+        <div className="description">
+          <h1>Andbox</h1>
+          <span>
+            <a
+              href="http://www.shop.andbox.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Website
+            </a>
+          </span>
+          <p>
+            Built custom sections for a landing page, added auto-complete search
+            bar, fixed issues with swatches in PDP, and added more customization
+            to existing Shopify sections.
+            <br />
+            <strong>Built with:</strong> JQuery, Javascript, HTML/CSS
+          </p>
+        </div>
+        <div className="project_img">
+          <a
+            href="http://www.shop.andbox.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="https://i.imgur.com/CrQQdNj.png" alt="andbox" />
+          </a>
+        </div>
+      </div>
+      <div
+        className="project_wrapper"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
+        <div className="project_img">
+          <a
             href="http://www.dooznyc.com"
             target="_blank"
             rel="noopener noreferrer"
