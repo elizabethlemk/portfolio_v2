@@ -263,18 +263,30 @@ h1:not(.logo) {
   align-items: center;
   margin-bottom: 3em;
 }
+
 .project_wrapper .description {
   padding: 0 1em;
+  width: 50%;
 }
+.project_img {
+  width: 40%;
+}
+
 .project_wrapper img {
-  width: 480px;
+  width: 100%;
   height: auto;
+}
+.project_wrapper:nth-child(odd) .project_img {
+  order: 2;
+}
+.project_wrapper:nth-child(odd) .description {
+  order: 1;
 }
 .wrapper {
   text-align: center;
   margin: 2em auto;
   min-width: 450px;
-  width: 60%;
+  width: 70%;
   padding: 1em;
   line-height: 2;
   color: black;
@@ -317,7 +329,7 @@ h1:not(.logo) {
     margin: 7em auto;
   }
 }
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1074px) {
   .about_wrapper,
   .img_wrapper,
   .project_wrapper {
@@ -327,14 +339,16 @@ h1:not(.logo) {
     flex-direction: column;
   }
   .project_img {
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-  .project_wrapper .description {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
+    width: 100%;
+  }
+  .project_wrapper .description {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
   }
   .contact h2 {
     font-size: medium;
